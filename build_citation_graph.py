@@ -1,9 +1,3 @@
-'''
-This code generates the citation table in the database
-1. So far it does not use any information in the citations to improve the database
-2. For difficult citations we could use the benty-search feature to try to find the 
-citation even when it is not clearly identified
-'''
 import os, sys
 import tarfile, gzip
 import shutil
